@@ -2,13 +2,14 @@
   "name": "vscode-natural",
   "displayName": "VSCode Natural",
   "description": "Language Server Client for Natural driven by natls",
-  "version": "0.16.0",
+  "version": "0.17.0",
   "publisher": "markusamshove",
   "icon": "images/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/markusamshove/vscode-natural"
   },
+  "homepage": "https://nat-ls.github.io",
   "license": "MIT",
   "engines": {
     "vscode": "^1.61.0"

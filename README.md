@@ -4,7 +4,7 @@
 
 Language Client implementation for [Natural Language Server (natls)](https://github.com/markusamshove/natls).
 
-To see features that currently work, have a look over at the [natls documentation](https://github.com/MarkusAmshove/natls/blob/main/docs/lsp-features.md).
+To see features that currently work, have a look over at the [natls documentation](https://nat-ls.github.io/docs/lsp-features/).
 
 ## Prerequisites
 
@@ -44,7 +44,7 @@ bugfix or enhancement that was done during the period of that natls version.
 
 ## Settings
 
-The [Language Server Configuration](https://github.com/MarkusAmshove/natls/blob/main/docs/lsp-config.md) can be configured with the same keys they're specified in in the linked documentation.
+The [Language Server Configuration](https://nat-ls.github.io/docs/lsp-config/) can be configured with the same keys they're specified in in the linked documentation.
 E.g. setting `"natls.completion.qualify": true,` in your VSCode `settings.json` results in the Language Server always completing variables fully qualified where applicable.
 
 ## Additional features
