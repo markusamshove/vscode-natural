@@ -17,11 +17,11 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Install Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
-        node-version: 18.x
+        node-version: 22
     - run: npm install --no-package-lock
     - name: lint
       run: npm run lint
@@ -35,9 +35,9 @@ jobs:
     name: Test JRE Download and Package
     steps:
       - name: Install Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18.x
+          node-version: 22
 
       - uses: actions/checkout@v3
 
@@ -75,9 +75,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18.x
+          node-version: 22
 
       - name: Build
         run: npm install --no-package-lock
