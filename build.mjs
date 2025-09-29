@@ -3,7 +3,7 @@ import fetch from "node-fetch";
 import * as tar from "tar";
 import yargs from "yargs/yargs";
 
-const JAVA_VERSION = "21";
+const JAVA_VERSION = "25";
 const JAVA_PLATFORM = {
 	"linux": "linux-x86_64",
 	"win32": "win32-x86_64",
