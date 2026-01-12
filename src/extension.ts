@@ -27,7 +27,7 @@ export async function activate(context: vscode.ExtensionContext) {
 	}
 
 	const suspendFlag = debugSuspend ? "y" : "n";
-	const debugFlags = ["-Xdebug", `-Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=${suspendFlag},quiet=y`];
+	const debugFlags = [`-Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=${suspendFlag},quiet=y`];
 	const debugParameter = debugMode ? debugFlags : [];
 
 	const serverOptions: ServerOptions = {
